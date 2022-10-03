@@ -1,0 +1,66 @@
+#container {
+  background: linear-gradient(gray, #fff);
+}
+
+#display-tasks {
+  align-content: center;
+  padding: 8%;
+  margin-bottom: 30px;
+}
+
+.heading {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#headdy {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.task-name {
+  height: 40px;
+  width: 320px;
+}
+
+#addBtn {
+  height: 40px;
+  background: lime;
+  padding: 0 20px;
+}
+
+.clear-button {
+  height: 40px;
+  background: linear-gradient(180deg, yellow, red);
+}
+
+.shell {
+  display: grid;
+  grid-template-columns: 5% 73% 22%;
+  width: 50%;
+  background-color: #ffe;
+  margin-left: 25%;
+  margin-bottom: 20px;
+}
+
+.checkbox {
+  grid-area: 1/1/span1/span 1;
+  padding-top: 30%;
+}
+
+.task-item {
+  grid-area: 1/2/span 1/span 1;
+  text-align: center;
+}
+
+.remBtn {
+  grid-area: 1/3/span 1/span 1;
+  height: 70%;
+  margin-top: 6.5%;
+  margin-right: 8px;
+  background-color: red;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+}
